@@ -1,0 +1,5 @@
+Test Suite,Description,Object,Action,DataColumn,WaitAfter
+projectAdd,navigate to project,,navigate,url,5
+projectAdd,click add button,,clickElement,clickAdd,3
+projectAdd,Add Name,"//input[@id=""Project_name""]",input,Name,
+projectAdd,Click add button,"//*[@id=""Project""]/div[2]/div/div/div/div/button",click,,5

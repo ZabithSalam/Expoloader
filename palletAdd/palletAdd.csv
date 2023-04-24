@@ -1,0 +1,18 @@
+Test Suite,Description,Object,Action,DataColumn,WaitAfter
+palletAdd,Navigate to pallet management,,navigate,url,5
+palletAdd,Click add button,,clickElement,clickAdd,3
+palletAdd,Input Name,"//*[@id=""Pallet_name""]",input,Name,
+palletAdd,Input Width,"//*[@id=""Pallet_width""]",input,Width,
+palletAdd,Input Length,"//*[@id=""Pallet_length""]",input,Length,
+palletAdd,Input Height,"//*[@id=""Pallet_pallet_height""]",input,Height,
+palletAdd,Input  Weight,"//*[@id=""Pallet_pallet_weight""]",input,Weight,
+palletAdd,Input Max Weight,"//*[@id=""Pallet_max_weight""]",input,MaxWeight,
+palletAdd,Click add button,"//*[@type=""submit""]",click,,4
+palletAdd,Verify name,//div[1]/div[2]/div[2]/div[1]/div,verifyText,verifyname,
+palletAdd,Verify width,//div[2]/div[1]/div[2]/div[2]/div[1]/div,verifyText,verifywidth,
+palletAdd,Verify length,//div[3]/div[1]/div[2]/div[2]/div[1]/div,verifyText,verifylength,
+palletAdd,Verify height,//div[4]/div[1]/div[2]/div[2]/div[1]/div,verifyText,verifyheight,
+palletAdd,Verify weight,//div[5]/div[1]/div[2]/div[2]/div[1]/div,verifyText,verifyweight,
+palletAdd,Verify maxWeight,//div[6]/div[1]/div[2]/div[2]/div[1]/div,verifyText,verifymaxweight,
+palletAdd,Verify pallet add error msg,"//div[@class=""ant-notification ant-notification-topRight""]",verifyText,palletAddMsg,
+palletAdd,Close the model,,clickElement,closeModel,

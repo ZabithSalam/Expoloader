@@ -1,0 +1,7 @@
+Test Suite,Enabled,Description,url,clickEdit,Name,Width,Length,Height,Weight,MaxWeight,skueditErrorMsg
+palletEdit,1,No nagative pallet dimensions,https://testing.expoloader.com/expoloader/palletpage,"//*[@id=""__next""]/div/div/div/div[1]/div/div[3]/div/div/div/div/div/div/table/tbody/tr[1]/td[7]/button",Euro pallet reupdated,-110,-110,-100,-1000,-1000000,NaN
+palletEdit,1,No empty pallet dimensions,NaN,"//*[@id=""__next""]/div/div/div/div[1]/div/div[3]/div/div/div/div/div/div/table/tbody/tr[1]/td[7]/button",,,,,,,NaN
+palletEdit,1,Length greater than width,NaN,NaN,Euro Pallet - greater than width,1200,800,100,1000,1000000,Length must be greater or equal to width
+palletEdit,1,No floating dimension values,NaN,NaN,Euro Pallet - floating value,12000.45,12000.45,12000.45,12000.45,12000.45,
+palletEdit,1,Input valid dimensions & parameters ,NaN,"//*[@id=""__next""]/div/div/div/div[1]/div/div[3]/div/div/div/div/div/div/table/tbody/tr[1]/td[7]/button",Euro pallet valid data,1200,1200,100,1000,1000000,
+palletEdit,1,No duplicate pallet name,NaN,"//*[@id=""__next""]/div/div/div/div[1]/div/div[3]/div/div/div/div/div/div/table/tbody/tr[1]/td[7]/button",Euro pallet,1200,1200,100,1000,1000000,

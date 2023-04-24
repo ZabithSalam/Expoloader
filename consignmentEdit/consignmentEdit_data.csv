@@ -1,0 +1,6 @@
+Test Suite,Enabled,Description,url,loadName,loadRemark
+consignmentEdit,1,Empty all the fields,https://testing.expoloader.com/expoloader/consignmentpage,,
+consignmentEdit,1,Empty remark,NaN,floor2,
+consignmentEdit,1,Empty name,NaN,,re
+consignmentEdit,1,Enter Already registered name,NaN,load,re
+consignmentEdit,1,Enter correct data,NaN,floor2,re

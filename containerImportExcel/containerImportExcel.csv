@@ -1,0 +1,3 @@
+Test Suite,Description,Object,Action,DataColumn,WaitAfter
+expoContainerImportExcel,navigate to container url,,navigate,url,3
+expoContainerImportExcel,click import excel data,/html/body/div[1]/div/div/div/div[1]/div/div[2]/div[2]/div/span[1]/div[1]/span/button/span[2],click,,10

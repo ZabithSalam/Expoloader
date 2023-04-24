@@ -1,0 +1,18 @@
+Test Suite,Description,Enabled,Data File (if not specified default file will be searched according to convention),Test Case Parameters,Reason to hybrid test or desabled test
+navigation,Group 2 - navigate to expoloader,1,,,
+signInWithoutValidation,signin to expoloader,1,,,
+containerExportExcel,export excel file,1,,,
+containerDeleteAllRecords,delete all container records,1,,,
+containerAddNew,add new container,1,,"for this test suit need to be paused and delete all records manually and run it again. 
+Because delete all record not woring. If we did not delete, the expoContainerAddNew or expoContainerEdit can be failed.",
+containerEdit,edit container,1,,,
+containerSearch,search container,1,,,
+containerDelete,delete single container,1,,,
+containerDeleteAllRecords,delete all container records,1,,,
+containerImportExcel,import excel file,1,,,
+projectAdd,add project,1,,,
+projectEdit,edit project,0,,"this test suit will not run properly. Because addProject didn't worked so we cant edit the
+ selected project if we need to edit the unselect project we need to add new project ",
+searchProject,search project,1,,,
+projectDelete,delete project,0,,"this test suit will not run properly. Because addProject didn't worked so we cant delete the select 
+project if we need to delete the unselect project we need to add new project ",

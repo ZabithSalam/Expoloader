@@ -1,0 +1,3 @@
+Test Suite,Description,Object,Action,DataColumn,WaitAfter
+palletExportExcel,navigate to pllet management url,,navigate,url,3
+palletExportExcel,click export button,//div[3]/button,click,,

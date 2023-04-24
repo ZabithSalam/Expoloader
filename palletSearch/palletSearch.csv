@@ -1,0 +1,4 @@
+Test Suite,Description,Object,Action,DataColumn,WaitAfter
+palletSearch,navigate to pallet management url,,navigate,url,7
+palletSearch,input a pallet name,/html/body/div[1]/div/div/div/div[1]/div/div[2]/div[5]/span/input,input,search,3
+palletSearch,Click close icon,/html/body/div[1]/div/div/div/div[1]/div/div[2]/div[5]/span/span,click,,3

@@ -1,0 +1,6 @@
+Test Suite,Enabled,Description,url,addUserButton,email
+projectDetailAddUser,1,Enter no input empty email,https://testing.expoloader.com/expoloader/projectpage,/html/body/div[1]/div/div/div/div[1]/div/div/div[2]/div/button/span,
+projectDetailAddUser,1,Enter no input invalid email,NaN,NaN,newuser@gmail
+projectDetailAddUser,1,Enter first  valid & non existing ,NaN,NaN,zabith@gmail.com
+projectDetailAddUser,1,Enter second  valid & non existing ,NaN,/html/body/div[1]/div/div/div/div[1]/div/div/div[2]/div/button/span,zabith2@gmail.com
+projectDetailAddUser,1,Enter  no input duplicate email,NaN,/html/body/div[1]/div/div/div/div[1]/div/div/div[2]/div/button/span,zabith@gmail.com

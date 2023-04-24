@@ -1,0 +1,2 @@
+Test Suite,Enabled,Description,url,Name,length,width,height,weight,SAPID,maxlevel,verifySuccess
+skuImportExcel,1,Import SKU excel data,https://testing.expoloader.com/expoloader/skupage,SKU_2_315_401_506,300,300,202,2231,FRX60172,100,Imported Succesfully

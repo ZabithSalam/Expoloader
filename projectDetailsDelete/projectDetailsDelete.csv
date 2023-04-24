@@ -1,0 +1,7 @@
+Test Suite,Description,Object,Action,DataColumn,WaitAfter
+projectDetailsDelete,navigate to proect page,,navigate,url,8
+projectDetailsDelete,click the project name,/html/body/div[1]/div/div/div/div[1]/div/div[3]/div/div/div/div/div/div/table/tbody/tr/td[1]/a,stpClick,,8
+projectDetailsDelete,Click Delete user button in the row,"//a[contains(text(),'Delete User')]",stpClick,,2
+projectDetailsDelete,click on cancel button in alert message ,"//span[contains(text(),'Cancel')]",stpClick,,2
+projectDetailsDelete,Click Delete user button in the row,"//a[contains(text(),'Delete User')]",click,,2
+projectDetailsDelete,click on OK button in alert message ,"//span[contains(text(),'OK')]",click,,2

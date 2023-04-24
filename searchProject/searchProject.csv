@@ -1,0 +1,3 @@
+Test Suite,Description,Object,Action,DataColumn,WaitAfter
+searchProject,navigate to project,,navigate,url,5
+searchProject,enter Name,/html/body/div[1]/div/div/div/div[1]/div/div[2]/div[5]/span/input,input,Name,4

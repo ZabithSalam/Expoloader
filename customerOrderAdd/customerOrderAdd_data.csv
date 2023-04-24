@@ -1,0 +1,6 @@
+Test Suite,Enabled,Description,clickAdd,Address,Country,Daddress,clickAddItem,Item name,width,height,length,weight,quantity,value,verifySuccessMsg
+customerOrderAdd,1,"empty shipment date,empty arrival address,empty destination country, empty delivery address,empty item","//*[@id=""__next""]/div/div/div/div[1]/div/div[2]/div[1]/button/span",,,,"//*[@id=""CustomerOrder""]/div[5]/div/div/div/div/div/button/span[2]",,,,,,,,NaN
+customerOrderAdd,1,Empty arival address,NaN,,india,mumbai,NaN,teabag,25,35,40,30,25,6,NaN
+customerOrderAdd,1,empty destinstion country,NaN,galle,,chennai,NaN,giftbox,30,40,35,24,50,8,NaN
+customerOrderAdd,1,valid data for all fields 1,NaN,kaduwela,srilanka,galle,NaN,tile,2,2,2,15,12,8,Added Successfully
+customerOrderAdd,1,valid data for all fields 2,"//*[@id=""__next""]/div/div/div/div[1]/div/div[2]/div[1]/button/span",matara,srilanka,malabe,"//*[@id=""CustomerOrder""]/div[5]/div/div/div/div/div/button/span[2]",toffee,1,1,2,5,20,10,Added Successfully

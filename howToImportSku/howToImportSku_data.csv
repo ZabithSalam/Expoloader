@@ -1,0 +1,5 @@
+Test Suite ,Enabled,Description,url,sku,verifyName,verifyWidth,verifyLength,verifyHeight,verifyWeight,verifySapID,verifyMaxlevel,verifyName2,verifyWidth2,verifyLength2,verifyHeight2,verifyWeight2,verifySapID2,verifyMaxlevel2,exportbutton
+howToImportSku,1,Navigate sku management,https://testing.expoloader.com/expoloader/skupage,//div[2]/div[2]/div/span[2],NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+howToImportSku,1,Verify first record,NaN,NaN,SKU_4_315_220_348,681,681,681,681,681.25,681,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+howToImportSku,1,Verify secound record,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,SKU_3_315_220_347,0,0,0,0,FRX60167,0,NaN
+howToImportSku,1,Click Export,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,//p[2]/button/span

@@ -1,0 +1,18 @@
+Test Suite,Description,Object,Action,DataColumn,WaitAfter
+palletEdit,navigate to pallet management,,navigate,url,5
+palletEdit,click edit button,,clickElement,clickEdit,3
+palletEdit,input Name,"//*[@id=""Pallet_name""]",input,Name,
+palletEdit,input Width,"//*[@id=""Pallet_width""]",input,Width,
+palletEdit,input Length,"//*[@id=""Pallet_length""]",input,Length,
+palletEdit,input Height,"//*[@id=""Pallet_pallet_height""]",input,Height,
+palletEdit,input  Weight,"//*[@id=""Pallet_pallet_weight""]",input,Weight,
+palletEdit,input Max Weight,"//*[@id=""Pallet_max_weight""]",input,MaxWeight,
+palletEdit,click add button,"//*[@type=""submit""]",click,,4
+palletEdit,Verify name,"//div[contains(text(),'Please input NAME!')]",verifyText,verifyname,
+palletEdit,Verify deplicate,"//div[contains(text(),'name Already Exist')]",verifyText,verifyduplicate,
+palletEdit,Verify width,"//div[contains(text(),'Please input WIDTH!')]",verifyText,verifywidth,
+palletEdit,Verify length,"//div[contains(text(),'Please input LENGTH!')]",verifyText,verifylength,
+palletEdit,Verify height,"//div[contains(text(),'Please input PALLET HEIGHT!')]",verifyText,verifyheight,
+palletEdit,Verify weight,"//div[contains(text(),'Please input PALLET WEIGHT!')]",verifyText,verifyweight,
+palletEdit,Verify maxWeight,"//div[contains(text(),'Please input MAX WEIGHT!')]",verifyText,verifymaxweight,
+palletEdit,Verify pallet edit success msg,"//div[@class=""ant-notification ant-notification-topRight""]",verifyText,palletEditMsg,

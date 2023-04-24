@@ -1,0 +1,15 @@
+Test Suite,Description,Object,Action,DataColumn,WaitAfter
+palletImportExcel,navigate to pallet management url,,navigate,url,3
+palletImportExcel,click Import Excel Data button,//span/button/span[2],click,,12
+palletImportExcel,verify the name,//tr[1]/td[1],verifyText,name,
+palletImportExcel,verify the width,//tr[1]/td[2],verifyText,width,
+palletImportExcel,verify the length,//tr[1]/td[3],verifyText,length,
+palletImportExcel,verify the pallet height,//tr[1]/td[4],verifyText,height,
+palletImportExcel,verify the pallet weight,//tr[1]/td[5],verifyText,weight,
+palletImportExcel,verify the pallet max weight,//tr[1]/td[6],verifyText,maxWeight,
+palletImportExcel,verify the name,//tr[2]/td[1],verifyText,name1,
+palletImportExcel,verify the width,//tr[2]/td[2],verifyText,width1,
+palletImportExcel,verify the length,//tr[2]/td[3],verifyText,length1,
+palletImportExcel,verify the height,//tr[2]/td[4],verifyText,height1,
+palletImportExcel,verify the weight,//tr[2]/td[5],verifyText,weight1,
+palletImportExcel,verify the maxWeight,//tr[2]/td[6],verifyText,maxWeight1,

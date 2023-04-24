@@ -1,0 +1,11 @@
+Test Suite,Description,Object,Action,DataColumn,WaitAfter
+skuImportExcel,navigate to sku management url,,navigate,url,5
+skuImportExcel,click Import Excel Data button,//span/button/span[2],click,,3
+skuImportExcel,verify success msg,//div[4]/div/div/div,verifyText,verifySuccess,
+skuImportExcel,verify the Name,//tr[1]/td[1],verifyText,Name,
+skuImportExcel,verify the length,//tr[1]/td[2],verifyText,length,
+skuImportExcel,verify the width,//tr[1]/td[3],verifyText,width,
+skuImportExcel,verify the height,//tr[1]/td[4],verifyText,height,
+skuImportExcel,verify the weight,//tr[1]/td[5],verifyText,weight,
+skuImportExcel,verify the SAPID,//tr[1]/td[6],verifyText,SAPID,
+skuImportExcel,verify the max level,//tr[1]/td[7],verifyText,maxlevel,

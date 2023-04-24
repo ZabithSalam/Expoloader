@@ -1,0 +1,6 @@
+Test Suite,Description,Object,Action,DataColumn,WaitAfter
+containerDeleteAllRecords,navigate to container,,navigate,url,5
+containerDeleteAllRecords,click delete all button,//div[1]/div/div[2]/div[4]/button/span,stpClick,,2
+containerDeleteAllRecords,Click no,"//span[contains(text(),'No')]",stpClick,,2
+containerDeleteAllRecords,click delete all button,//div[1]/div/div[2]/div[4]/button/span,click,,2
+containerDeleteAllRecords,Click Yes,"//span[contains(text(),'Yes')]",click,,

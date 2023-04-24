@@ -1,0 +1,11 @@
+Test Suite,Description,Object,Action,DataColumn,WaitAfter
+skuSearch,navigate sku management url,,navigate,url,7
+skuSearch,input a sku name,"//input[@placeholder=""search""]",input,search,2
+skuSearch,verify name,//table/tbody/tr/td[1],verifyText,verifyName,
+skuSearch,verify width,//table/tbody/tr/td/div/div[2],verifyText,verifyWidth,
+skuSearch,verify length,//table/tbody/tr/td/div/div[2],verifyText,verifyLength,
+skuSearch,verify height,//table/tbody/tr/td/div/div[2],verifyText,verifyHeight,
+skuSearch,verify weight,//table/tbody/tr/td/div/div[2],verifyText,verifyWeight,
+skuSearch,verify SAP ID,//table/tbody/tr/td/div/div[2],verifyText,verifySapID,
+skuSearch,verify Max level,//table/tbody/tr/td/div/div[2],verifyText,verifyMaxlevel,
+skuSearch,click on close button in the search input field,//div[5]/span/span,click,,2

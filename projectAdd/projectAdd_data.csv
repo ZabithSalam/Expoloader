@@ -1,0 +1,5 @@
+Test Suite,Enabled,Description,clickAdd,Name,url,,,
+projectAdd,1,Enter valid project name,"//*[@id=""__next""]/div/div/div/div[1]/div/div[2]/div[1]/button/span",zabith@gmail.com,https://testing.expoloader.com/expoloader/projectpage,,,
+projectAdd,1,Enter second valid project name ,"//*[@id=""__next""]/div/div/div/div[1]/div/div[2]/div[1]/button/span",zabith2@gmail.com,NaN,,,
+projectAdd,1,Enter duplicate name,NaN,zabith@gmail.com,NaN,,,
+projectAdd,1,Enter empty project name,NaN,,NaNFLOOR LOADING,40ftStandardDryContainer,"//div[contains(text(),'SKU_9_356_305_381')]",1386

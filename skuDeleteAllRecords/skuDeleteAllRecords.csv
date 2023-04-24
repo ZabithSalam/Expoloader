@@ -1,0 +1,7 @@
+Test Suite,Description,Object,Action,DataColumn,WaitAfter
+skuDeleteAllRecords,navigate to sku url,,navigate,url,4
+skuDeleteAllRecords,Click Delete all record button,//div[4]/button/span,stpClick,,5
+skuDeleteAllRecords,click on no button in alert message ,"//span[contains(text(),'No')]",stpClick,,3
+skuDeleteAllRecords,Click Delete button in the row,//div[4]/button/span,click,,5
+skuDeleteAllRecords,click on yes button in alert message ,"//span[contains(text(),'Yes')]",click,,5
+skuDeleteAllRecords,Delete all sku records,"//div[contains(text(),'All Deleted SuccessFully')]",verifyText,RemoveSkuMsg,

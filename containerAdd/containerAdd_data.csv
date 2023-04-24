@@ -1,0 +1,8 @@
+Test Suite,Enabled,Description,url,clickAdd,Name,Width,Length,Height,SafeWidth,SafeLength,SafeHeight,MaxWeight
+containerAdd,1,Empty Data,https://testing.expoloader.com/expoloader/containerpage,NaN,,,,,,,,
+containerAdd,1,No length less than width,NaN,NaN,20ft Reefer Container,5910,2345,2690,0,0,0,28060000
+containerAdd,1,Enter vaild data,NaN,NaN,40ft Reefer Container,2294,11555,2554,0,0,0,29340000
+containerAdd,1,Enter floating value,NaN,"//*[@id=""__next""]/div/div/div/div[1]/div/div[2]/div[1]/button/span",40ft Standard Dry Container,2348.3,12025.87,2392.55,0,0,0,26580000.44
+containerAdd,1,Enter Minus value,NaN,"//*[@id=""__next""]/div/div/div/div[1]/div/div[2]/div[1]/button/span",40ft High Cube Container,-2350,-2555,-2699,0,0,0,-26550000
+containerAdd,1,Enter duplicate data,NaN,"//*[@id=""__next""]/div/div/div/div[1]/div/div[2]/div[1]/button/span",40ft Reefer Container,2294,11555,2554,0,0,0,29340000
+containerAdd,1,,,,/html/body/div[5]/div/div/div/div[2]/div[1]/div/div/div[1]/div,FLOOR LOADING,40ftStandardDryContainer,"//div[contains(text(),'SKU_9_356_305_381')]",,,,1386

@@ -1,0 +1,21 @@
+Test Suite,Description,Object,Action,DataColumn,WaitAfter
+skuAdd,Navigate to sku management,,navigate,url,5
+skuAdd,Click add button,,clickElement,clickAdd,3
+skuAdd,Input Name,Sku_name,input,Name,
+skuAdd,Input Width,Sku_width,input,Width,
+skuAdd,Input Length,Sku_length,input,Length,
+skuAdd,Input Height,Sku_height,input,Height,
+skuAdd,Input  Weight,Sku_weight,input,MaxWeight,
+skuAdd,Input SAP ID,Sku_sap_id,input,SAPID,
+skuAdd,Input Max level,Sku_max_level,input,Maxlevel,
+skuAdd,Click submit,//button[@type='submit'],click,,3
+skuAdd,Verify name,"//div[contains(text(),'Please input NAME!')]",verifyText,verifyname,
+skuAdd,Verify width,"//div[contains(text(),'Please input WIDTH!')]",verifyText,verifywidth,
+skuAdd,Verify Length,"//div[contains(text(),'Please input LENGTH!')]",verifyText,verifylength,
+skuAdd,Verify height,"//div[contains(text(),'Please input HEIGHT!')]",verifyText,verifyheight,
+skuAdd,Verify weight,"//div[contains(text(),'Please input WEIGHT!')]",verifyText,verifyweight,
+skuAdd,Verify SAP ID,"//div[contains(text(),'Please input SAP ID!')]",verifyText,verifySAPID,
+skuAdd,Verify Max level,"//div[contains(text(),'Please input MAX LEVEL!')]",verifyText,verifyMaxlevel,
+skuAdd,verify already exit data,"//div[contains(text(),'name Already Exist')]",verifyText,nameAlreadyExist,
+skuAdd,Verify the sku  msg,"//div[contains(text(),'Added Successfully')]",verifyText,skuMsg,
+skuAdd,Close the model ,,clickElement,closeModel,

@@ -1,0 +1,5 @@
+Test Suite,Description,Object,Action,DataColumn,WaitAfter
+projectEdit,navigate to project,,navigate,url,5
+projectEdit,click Edit button,,clickElement,clickEdit,3
+projectEdit,Edit project name,"//*[@id=""Project_name""]",input,Name,1
+projectEdit,Click Edit submit button,/html/body/div[7]/div/div[2]/div/div[2]/div[2]/form/div[2]/div/div/div/div/button,click,,5

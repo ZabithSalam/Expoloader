@@ -1,0 +1,6 @@
+Test Suite,Enabled,Description,url,EditUserButton,EditUserButton2,email
+projectDetailEditUser,1,Verify the cancel,https://testing.expoloader.com/expoloader/projectpage,/html/body/div[1]/div/div/div/div[1]/div/div/div[3]/div/div/div/div/div/div/div/table/tbody/tr/td[3]/a,/html/body/div[1]/div/div/div/div[1]/div/div/div[3]/div/div/div/div/div/div/div/table/tbody/tr/td[3]/a,NaN
+projectDetailEditUser,1,Empty email,NaN,NaN,/html/body/div[1]/div/div/div/div[1]/div/div/div[3]/div/div/div/div/div/div/div/table/tbody/tr/td[3]/a,
+projectDetailEditUser,1,Enter duplicate email,NaN,NaN,NaN,zabith2@gmail.com
+projectDetailEditUser,1,Enter invalid email,NaN,NaN,NaN,newuserEdited@gmail
+projectDetailEditUser,1,Enter correct data,NaN,NaN,NaN,newuserEdited@gmail.com

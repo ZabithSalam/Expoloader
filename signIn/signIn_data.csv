@@ -1,0 +1,14 @@
+Test Suite,Enabled,Description,email,password,errorMsgEmail,errorMsgPassword,loginErrorMsg
+signIn,1,Enter email in invalid format,zabithgmail.com,Tv567567@,The Email you entered is not a valid format!,NaN,NaN
+signIn,1,Enter empty email and empty password,,,Please enter Email Address!,Please enter password!,NaN
+signIn,1,Enter empty email and valid password,,Tv567567@,Please enter Email Address!,NaN,NaN
+signIn,1,Enter invalid email and invalid password (numbers only),zabithgmail.com,1234,The Email you entered is not a valid format!,Password is too short - should be 6 characters minimum.,NaN
+signIn,1,Enter email with white spaces,zabith salam@gmail.com,Tv999999#,The Email you entered is not a valid format!,NaN,NaN
+signIn,1,Enter password with white spaces,zabith@gmail.com,Tv    999999#,NaN,NaN,NaN
+signIn,1,Enter leading white spaces in email,     zabith@gmail.com,Tv999999#,The Email you entered is not a valid format!,NaN,NaN
+signIn,1,Enter leading white spaces in password,zabith@gmail.com,    Tv999999#,NaN,NaN,NaN
+signIn,1,Enter trailing white spaces in email,tvirajsamarasekara@gmail.com    ,Tv999999#,The Email you entered is not a valid format!,NaN,NaN
+signIn,1,Enter trailing white spaces in password,zabith@gmail.com,Tv999999#         ,NaN,NaN,NaN
+signIn,1,Enter valid email and empty password,zabith@gmail.com,,NaN,Please enter password!,NaN
+signIn,1,Enter registered email  and incorrect password,mohamedzabith3@gmail.com,Zabith@333,NaN,NaN,Wrong Email or Password
+signIn,1,Correct signIn credentials,mohamedzabith3@gmail.com,Zabith@123,NaN,NaN,NaN

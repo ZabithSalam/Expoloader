@@ -1,0 +1,23 @@
+Test Suite,Enabled,Description,url,clickAdd,Name,Width,Length,Height,MaxWeight,SAPID,Maxlevel,verifyname,verifywidth,verifylength,verifyheight,verifyweight,verifySAPID,verifyMaxlevel,nameAlreadyExist,skuMsg,closeModel
+skuAdd,1,Empty sku dimensions,https://testing.expoloader.com/expoloader/skupage,//div[1]/button/span,,,,,,,,Please input NAME!,Please input WIDTH!,"
+Please input LENGTH!","
+Please input HEIGHT!","
+Please input WEIGHT!","
+Please input SAP ID!","
+Please input MAX LEVEL!",NaN,NaN,\.anticon-close > svg:nth-child(1)
+skuAdd,1,Length greater than width,NaN,//div[1]/button/span,SKU_3_315_220_348,1200,800,100,1000,FRX607168,100,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,Length must be greater or equal to width,NaN
+skuAdd,1,Input valid dimensions & parameeters ,NaN,NaN,SKU_1_315_220_346,381,381,305,2550,FRX60166,100,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,Added Successfully,NaN
+skuAdd,1,Nagative sku dimensions,NaN,//div[1]/button/span,SKU_3_315_220_347,-281,-281,-205,-1550,FRX60167,-100,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,Added Successfully,NaN
+skuAdd,1,Input valid dimensions & parameeters 2,NaN,//div[1]/button/span,SKU_2_315_420_546,481,481,405,3550,FRX60166,200,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,Added Successfully,NaN
+skuAdd,1,Enter name with white spaces,NaN,//div[1]/button/span,SKU    _2_315_400_546,480,480,405,3000,FRX60166,100,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,Added Successfully,NaN
+skuAdd,1,Enter width with white spaces,NaN,//div[1]/button/span,SKU_2_315_401_501,30   0,300,205,2070,FRX60167,100,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,Added Successfully,NaN
+skuAdd,1,Enter length with white spaces,NaN,//div[1]/button/span,SKU_2_315_401_502,360,3 81,200,2070,FRX60168,100,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,Added Successfully,NaN
+skuAdd,1,Enter height with white spaces,NaN,//div[1]/button/span,SKU_2_315_401_503,355,381,30  5,2224,FRX60169,200,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,Added Successfully,NaN
+skuAdd,1,Enter SAPID with white spaces,NaN,//div[1]/button/span,SKU_2_315_401_504,300,300,205,2228,FRX60    170,200,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,Added Successfully,NaN
+skuAdd,1,Enter leading white spaces in name field,NaN,//div[1]/button/span,             SKU_2_315_401_505,400,485,305,2230,FRX60171,100,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,Added Successfully,NaN
+skuAdd,1,Enter leading white spaces in SAPID field,NaN,//div[1]/button/span,SKU_2_315_401_506,300,300,202,2231,       FRX60172,100,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,Added Successfully,NaN
+skuAdd,1,Enter trailing white spaces in name field,NaN,//div[1]/button/span,SKU_2_315_401_507            ,145,215,95,2233,FRX60173,100,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,Added Successfully,NaN
+skuAdd,1,Enter trailing white spaces in SAPID field,NaN,//div[1]/button/span,SKU_2_315_401_508,280,280,185,10050,FRX60174        ,100,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+skuAdd,1,No duplicate sku name,NaN,//div[1]/button/span,SKU_1_315_220_346,381,381,305,2550,FRX60166,100,NaN,NaN,NaN,NaN,NaN,NaN,NaN,name Already Exist,NaN,NaN
+skuAdd,1,No floating dimension values,NaN,NaN,SKU_4_315_220_348,681.25,681.25,681.25,681.25,681.25,681.25,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,Added Successfully,NaN
+FloorLoading,1,,,,/html/body/div[5]/div/div/div/div[2]/div[1]/div/div/div[1]/div,FLOOR LOADING,40ftStandardDryContainer,"//div[contains(text(),'SKU_9_356_305_381')]",1386,,,,,,,,,,,,

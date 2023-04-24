@@ -1,0 +1,11 @@
+Test Suite,Description,Object,Action,DataColumn,WaitAfter
+containerSearch,Navigate to container,,navigate,url,10
+containerSearch,Input the container name,//div[5]/span/input,input,search,2
+containerSearch,Verify Name,//tr/td[1],verifyText,verifyName,
+containerSearch,Verify Width,//td/div/div[2],verifyText,verifyWidth,
+containerSearch,Verify length,//td/div/div[2],verifyText,verifyLength,
+containerSearch,Verify height,//td/div/div[2],verifyText,VerifyHeight,
+containerSearch,Verify safeWidth,//td/div/div[2],verifyText,VerifySafeWidth,
+containerSearch,Verify safeLength,//td/div/div[2],verifyText,VerifySafeLength,
+containerSearch,Verify safeHeight,//td/div/div[2],verifyText,VerifySafeHeight,
+containerSearch,Verify maxWeight,//td/div/div[2],verifyText,VerifyMaxWeight,

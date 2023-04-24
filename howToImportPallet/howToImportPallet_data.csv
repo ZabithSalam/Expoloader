@@ -1,0 +1,5 @@
+Test Suite ,Enabled,Description,url,sku,verifyName,verifyWidth,verifyLength,verifyPalletHeight,verifyPalletWeight,verifymaxWeight,verifyName1,verifyWidth2,verifyLength3,verifyPalletHeight4,verifyPalletWeight5,verifymaxWeight6,exportbutton
+howToImportPallet,1,Navigate pallet Management,https://testing.expoloader.com/expoloader/palletpage,//div[2]/div[2]/div/span[2],NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+howToImportPallet,1,Verify first record,NaN,NaN,Euro pallet - 1,0,0,0,0,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+howToImportPallet,1,Verify secound record,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,Euro Pallet - 3,12000,12000,12000,12000,12000,NaN
+howToImportPallet,1,Click Export,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,//div/p[2]/button/span

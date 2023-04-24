@@ -1,0 +1,20 @@
+Test Suite,Description,Object,Action,DataColumn,WaitAfter
+skuEdit,Navigate to Sku management,,navigate,url,5
+skuEdit,Click edit button,,clickElement,clickEdit,
+skuEdit,Input Name,Sku_name,input,Name,
+skuEdit,Input Width,Sku_width,input,Width,
+skuEdit,Input Length,Sku_length,input,Length,
+skuEdit,Input Height,Sku_height,input,Height,
+skuEdit,Input Weight,Sku_weight,input,MaxWeight,
+skuEdit,Input SAP ID,Sku_sap_id,input,SAPID,
+skuEdit,Input Max level,Sku_max_level,input,Maxlevel,
+skuEdit,Click edit button,//button[@type='submit'] ,click,,3
+skuEdit,Verify name,//div[1]/div[1]/div[2]/div[2]/div[1]/div,verifyText,verifyname,
+skuEdit,Verify width,//div[2]/div[1]/div[2]/div[2]/div[1]/div,verifyText,verifywidth,
+skuEdit,Verify Length,//div[3]/div[1]/div[2]/div[2]/div[1]/div,verifyText,verifylength,
+skuEdit,Verify height,//div[4]/div[1]/div[2]/div[2]/div[1]/div,verifyText,verifyheight,
+skuEdit,Verify weight,//div[5]/div[1]/div[2]/div[2]/div[1]/div,verifyText,verifyweight,
+skuEdit,Verify SAP ID,//div[6]/div[1]/div[2]/div[2]/div[1]/div,verifyText,verifySAPID,
+skuEdit,Verify Max level,//div[7]/div[1]/div[2]/div[2]/div[1]/div,verifyText,verifyMaxlevel,
+skuEdit,Verify sku edit  msg,"//div[@class=""ant-notification ant-notification-topRight""]",verifyText,skuEditMsg,
+skuEdit,close model ,,clickElement,closeModel,

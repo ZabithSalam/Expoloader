@@ -1,0 +1,20 @@
+Test Suite ,Description,Object,Action ,DataColumn,WaitAfter
+howToImportContainer,Navigate to container management,,navigate,url,5
+howToImportContainer,Click button,,clickElement,sku,2
+howToImportContainer,Verify name,//tr[1]/td[1],verifyText,verifyName,6
+howToImportContainer,Verify width,//tr[1]/td[2],verifyText,verifyWidth,
+howToImportContainer,Verify length,//tr[1]/td[3],verifyText,verifyLength,
+howToImportContainer,Verify height,//tr[1]/td[4],verifyText,verifyHeight,
+howToImportContainer,Verify safeWidth,//tr[1]/td[5],verifyText,verifySafeWidth,
+howToImportContainer,Verify safeLength,//tr[1]/td[6],verifyText,verifySafeLength,
+howToImportContainer,Verify safeHeight,//tr[1]/td[7],verifyText,verifySafeHeight,
+howToImportContainer,Verify safeMaxWeight,//tr[1]/td[8],verifyText,verifySafeMaxWeight,
+howToImportContainer,Verify name,//tr[2]/td[1],verifyText,verifyName2,
+howToImportContainer,Verify width,//tr[2]/td[2],verifyText,verifyWidth2,
+howToImportContainer,Verify length,//tr[2]/td[3],verifyText,verifyLength2,
+howToImportContainer,Verify height,//tr[2]/td[4],verifyText,verifyHeight2,
+howToImportContainer,Verify safeWidth,//tr[2]/td[5],verifyText,verifySafeWidth2,
+howToImportContainer,Verify safeLength,//tr[2]/td[6],verifyText,verifySafeLength2,
+howToImportContainer,Verify safeHeight,//tr[2]/td[7],verifyText,verifySafeHeight2,
+howToImportContainer,Verify safeMaxWeight,//tr[2]/td[8],verifyText,verifySafeMaxWeight2,
+howToImportContainer,Click Export,//div/p[2]/button/span,clickElement,exportButton,

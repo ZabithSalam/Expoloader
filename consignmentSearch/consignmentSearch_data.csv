@@ -1,0 +1,4 @@
+Test Suite,Enabled,Description,url,search
+consignmentSearch,1,Search by name,https://testing.expoloader.com/expoloader/consignmentpage,pallet
+consignmentSearch,1,Search by remarks,NaN,Some remarks
+consignmentSearch,1,Search by non existing consignments,NaN,g122

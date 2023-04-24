@@ -1,0 +1,3 @@
+Test Suite,Description,Object,Action,DataColumn,WaitAfter
+skuExportExcel,navigate to sku,,navigate,url,5
+skuExportExcel,click import excel data,//div[3]/button/span,click,,3

@@ -1,0 +1,11 @@
+Test Suite,Description,Object,Action,DataColumn,WaitAfter
+projectDetailEditUser,navigate to proect page,,navigate,url,5
+projectDetailEditUser,click project name in the table,/html/body/div[1]/div/div/div/div[1]/div/div[3]/div/div/div/div/div/div/table/tbody/tr/td[1]/a,stpClick,,8
+projectDetailEditUser,Click edit button,,clickElement,EditUserButton,4
+projectDetailEditUser,click cancel ,/html/body/div[1]/div/div/div/div[1]/div/div/div[3]/div/div/div/div/div/div/div/table/tbody/tr[1]/td[3]/span/a[2],stpClick,,3
+projectDetailEditUser,click cancel in the alert message,"//span[contains(text(),'Cancel')]",stpClick,,3
+projectDetailEditUser,click cancel ,/html/body/div[1]/div/div/div/div[1]/div/div/div[3]/div/div/div/div/div/div/div/table/tbody/tr[1]/td[3]/span/a[2],stpClick,,3
+projectDetailEditUser,click ok,"//span[contains(text(),'OK')]",stpClick,,5
+projectDetailEditUser,Click edit button,,clickElement,EditUserButton2,4
+projectDetailEditUser,input email ,email,input,email,2
+projectDetailEditUser,click save,/html/body/div[1]/div/div/div/div[1]/div/div/div[3]/div/div/div/div/div/div/div/table/tbody/tr[1]/td[3]/span/a[1],click,,5

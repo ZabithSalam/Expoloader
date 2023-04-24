@@ -1,0 +1,4 @@
+Test Suite,Enabled,Description,Name,clickName,clickOk
+selectProject,1,Enter non existing project name,noone@gmail.com,NaN,NaN
+selectProject,1,Enter existing project name,creativelogodesigner124@gmail.com,NaN,NaN
+selectProject,1,Select project ,,\tr.ant-table-row:nth-child(2) > td:nth-child(1) > a:nth-child(1),NaN

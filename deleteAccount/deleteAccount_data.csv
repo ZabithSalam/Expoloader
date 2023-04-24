@@ -1,0 +1,7 @@
+Test Suite,Enabled,Description,password,errorMsgPassword,alertMsgok
+deleteAccount,1,Enter the the wrong passowrd,Tv678678@,NaN,"//span[contains(text(),'OK')]"
+deleteAccount,1,Enter password with white spaces,Tv   999999@,NaN,"//span[contains(text(),'OK')]"
+deleteAccount,1,Enter leading white space in password,   Tv999999#,NaN,"//span[contains(text(),'OK')]"
+deleteAccount,1,Enter trailing white space in password,Tv999999#    ,NaN,"//span[contains(text(),'OK')]"
+deleteAccount,1,Enter Empty password,,No password provided.,NaN
+deleteAccount,1,Enter the correct password,Zabith#123,NaN,NaN

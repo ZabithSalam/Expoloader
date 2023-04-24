@@ -1,0 +1,5 @@
+Test Suite,Enabled,Description,url,clickEdit,Name,,,
+projectEdit,1,Enter correct name,https://testing.expoloader.com/expoloader/projectpage,/html/body/div[1]/div/div/div/div[1]/div/div[3]/div/div/div/div/div/div/table/tbody/tr[2]/td[2]/button,Zabith,,,
+projectEdit,1,Enter duplicate name,NaN,NaN,creativelogodesigner124@gmail.com,,,
+projectEdit,1,Enter empty name,NaN,NaN,,,
+FloorLoading,1,,,FLOOR LOADING,/html/body/div[5]/div/div/div/div[2]/div[1]/div/div/div[1]/div,40ftStandardDryContainer,"//div[contains(text(),'SKU_9_356_305_381')]",1386

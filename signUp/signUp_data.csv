@@ -1,0 +1,19 @@
+Test Suite,Enabled,Description,Name,Email,Password,errorMsgName,errorMsgEmail,errorMsgPassword,sucessfullySignupMsg,signUpErrorMsg
+signUp,1,All fields are empty,,,,Please enter name!,Please enter Email Address!,Please enter password!,NaN,NaN
+signUp,1,Enter the invalid Email,Zabith,zabithgmail.com,Tb983501940@,NaN,The Email you entered is not a valid format!,NaN,NaN,NaN
+signUp,1,Password length more than six,Zabith,zabith@gmail.com,Tb3@,NaN,NaN,Password is too short - should be 6 characters minimum.,NaN,NaN
+signUp,1,Password must contain atleast one letter,Zabith,zabith@gmail.com,123456@,NaN,NaN,Password should be contain One letter,NaN,NaN
+signUp,1,Password must contain atleast one capital letter,Zabith,zabith@gmail.com,abcde1f@,NaN,NaN,Password should be at least one capital letter,NaN,NaN
+signUp,1,Password must contain atleast one number,Zabith,zabith@gmail.com,Abcde#,NaN,NaN,Password should be at least one number,NaN,NaN
+signUp,1,Password must contain atleast one special character,Zabith,zabith@gmail.com,Abcde1,NaN,NaN,Need one special character,NaN,NaN
+signUp,1,Enter name with white spaces,Zabit h,zabith@gmail.com,Zabith033#,NaN,NaN,NaN,NaN,NaN
+signUp,1,Enter email with white spaces,Zabith,zabith@  gmail.com,Zabith034#,NaN,The Email you entered is not a valid format!,NaN,NaN,NaN
+signUp,1,Enter password with spaces ,Zabith,zabith@gmail.com,Zabith03 5#,NaN,NaN,NaN,NaN,NaN
+signUp,1,Enter leading white spaces in name field, Zabith,zabith@gmail.com,Amna035#,NaN,NaN,NaN,NaN,NaN
+signUp,1,Enter leading white spaces in email field,Zabith, zabith@gmail.com,Tv888888@,NaN,The Email you entered is not a valid format!,NaN,NaN,NaN
+signUp,1,Enter leading white spaces in password,Zabith,zabith@gmail.com,   Tv888889@,NaN,NaN,NaN,NaN,NaN
+signUp,1,Enter trailing white spaces in name field,Zabith   ,zabith@gmail.com,Tv888889@,NaN,NaN,NaN,NaN,NaN
+signUp,1,Enter trailing white spaces in email field,Zabith,zabith@gmail.com        ,Tv555555@,NaN,NaN,NaN,NaN,NaN
+signUp,1,Enter trailing white spaces in password field,Zabith,zabith@gmail.com,Tv000000@     ,NaN,NaN,NaN,NaN,NaN
+signUp,1,Enter already register email ,Zabith,zabith0330@gmail.com,Amna033#,NaN,NaN,NaN,NaN,Email address is already Registered
+signUp,1,Enter  correct credentials,Zabith,mohamedzabith3@gmail.com,Zabith@123 ,NaN,NaN,NaN,You're successfully registered!,NaN

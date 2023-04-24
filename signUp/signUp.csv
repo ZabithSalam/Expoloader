@@ -1,0 +1,12 @@
+Test Suite,Description,Object,Action ,DataColumn,WaitAfter
+signUp,Click signup,/html/body/div[1]/div/div/div/div[1]/div/div[2]/div[2]/span[2]/a,stpClick,,
+signUp,Enter name,"//input[@name=""name""]",input,Name,
+signUp,Enter email,"//input[@name=""email""]",input,Email,
+signUp,Enter password,"//input[@name=""password""]",input,Password,
+signUp,Click agree,//div/span[1]/input,stpClick,,
+signUp,Click Signup,//div[5]/button,click,,2
+signUp,Verify name ,"//*[@id=""mui-3-helper-text""]",verifyText,errorMsgName,
+signUp,Verify email,"//*[@id=""mui-4-helper-text""]",verifyText,errorMsgEmail,
+signUp,Verify password ,"//*[@id=""mui-5-helper-text""]",verifyText,errorMsgPassword,
+signUp,Verify Sign up error msg,"//div[contains(text(),'Email address is already Registered')]",verifyText,signUpErrorMsg,
+signUp,Verify sucessfully msg,"//div[contains(text(),'You're successfully registered!')]",verifyText,sucessfullySignupMsg,2

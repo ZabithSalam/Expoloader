@@ -1,0 +1,8 @@
+Test Suite,Description,Object,Action ,DataColumn,WaitAfter
+deleteAccount,Click drop down,\.css-x82bvv > svg:nth-child(1),stpClick,,
+deleteAccount,Click my account,\a.MuiTypography-root,stpClick,,
+deleteAccount,Click Delete account,//div/button[3],click,,
+deleteAccount,Enter password,"//input[@name=""password""]",input,password,
+deleteAccount,Click Delete account,"//button[@type=""submit""]",click,,
+deleteAccount,Password verify,//div[1]/div/p,verifyText,errorMsgPassword,
+deleteAccount,Please check and Re-Enter correct one... ,,clickElement,alertMsgok,

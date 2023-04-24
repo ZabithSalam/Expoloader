@@ -1,0 +1,6 @@
+Test Suite,Description,Object,Action,DataColumn,WaitAfter
+containerDelete,navigate to container,,navigate,url,5
+containerDelete,Delete 1 data,/html/body/div[1]/div/div/div/div[1]/div/div[3]/div/div/div/div/div/div/table/tbody/tr[1]/td[10]/button/span,stpClick,,3
+containerDelete,delete 1 data no,"//span[contains(text(),'No')]",stpClick,,3
+containerDelete,Delete 1 data,//div/table/tbody/tr[1]/td[10]/button/span,click,,3
+containerDelete,delete data Yes,"//span[contains(text(),'Yes')]",click,,3

@@ -1,0 +1,7 @@
+Test Suite,Enabled,Description,url,search
+palletSearch,1,Search by Name,https://testing.expoloader.com/expoloader/palletpage,Euro pallet
+palletSearch,1,Search by Width,NaN,1100
+palletSearch,1,Search by Length,NaN,1200
+palletSearch,1,Search by Pallet Height,NaN,100
+palletSearch,1,Search by Pallet Weight,NaN,1000
+palletSearch,1,Search by Max Weight,NaN,1000000

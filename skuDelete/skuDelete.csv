@@ -1,0 +1,7 @@
+Test Suite,Description,Object,Action,DataColumn,WaitAfter
+skuDelete,navigate to SKU url,,navigate,url,8
+skuDelete,Click Delete button in the row,//table/tbody/tr[1]/td[9]/button/span,stpClick,,3
+skuDelete,click on no button in alert message ,"//span[contains(text(),'No')]",stpClick,,2
+skuDelete,Click Delete button in the row,//table/tbody/tr[1]/td[9]/button/span,click,,3
+skuDelete,click on yes button in alert message ,"//span[contains(text(),'Yes')]",click,,5
+skuDelete,Verify sku delete,"//div[contains(text(),'Removed Successfully')]",verifyText,RemoveSkuMsg,

@@ -1,0 +1,18 @@
+Test Suite,Enabled,Description,url,clickAdd,Name,Width,Length,Height,Weight,MaxWeight,verifyname,verifywidth,verifylength,verifyheight,verifyweight,verifymaxweight,palletAddErrorMsg,closeModel
+palletAdd,1,No empty pallet dimensions,https://testing.expoloader.com/expoloader/palletpage,/html/body/div[1]/div/div/div/div[1]/div/div[2]/div[1]/button/span,,,,,,,"
+Please input NAME!","
+Please input WIDTH!","
+Please input LENGTH!","
+Please input PALLET HEIGHT!","
+Please input PALLET WEIGHT!","
+Please input MAX WEIGHT!",NaN,\.anticon-close > svg:nth-child(1)
+palletAdd,1,No nagative pallet dimensions,NaN,//div/div[2]/div[1]/button/span,Euro pallet - 1,-110,-110,-100,-1000,-1000000,NaN,NaN,NaN,NaN,NaN,NaN,Added Successfully,NaN
+palletAdd,1,Length greater than width,NaN,//div/div[2]/div[1]/button/span,Euro pallet - 2,1200,800,100,1000,1000000,NaN,NaN,NaN,NaN,NaN,NaN,Length must be greater or equal to width,NaN
+palletAdd,1,No floating dimension values,NaN,NaN,Euro Pallet - 3,12000.45,12000.45,12000.45,12000.45,12000.45,NaN,NaN,NaN,NaN,NaN,NaN,Added Successfully,NaN
+palletAdd,1,Enter name with white spaces,NaN,//div/div[2]/div[1]/button/span,E     uro Pallet - 4,1200,1200,100,1000,1000000,NaN,NaN,NaN,NaN,NaN,NaN,Added Successfully,NaN
+palletAdd,1,Enter width with white spaces,NaN,//div/div[2]/div[1]/button/span,Euro Pallet - 5,11 00,1100,100,1000,1000000,NaN,NaN,NaN,NaN,NaN,NaN,Added Successfully,NaN
+palletAdd,1,Enter length with white spaces,NaN,//div/div[2]/div[1]/button/span,Euro Pallet - 6,800,12  00,100,1000,1000000,NaN,NaN,NaN,NaN,NaN,NaN,Added Successfully,NaN
+palletAdd,1,Enter leading white spaces in name field,NaN,//div/div[2]/div[1]/button/span,       Euro Pallet - 7,800,1200,100,1000,1000000,NaN,NaN,NaN,NaN,NaN,NaN,Added Successfully,NaN
+palletAdd,1,Enter trailing white spaces in name field,NaN,//div/div[2]/div[1]/button/span,Euro Pallet - 8          ,800,1200,100,1000,1000000,NaN,NaN,NaN,NaN,NaN,NaN,Added Successfully,NaN
+palletAdd,1,Input valid dimensions & parameters ,NaN,//div/div[2]/div[1]/button/span,Euro pallet,1200,1200,100,1000,1000000,NaN,NaN,NaN,NaN,NaN,NaN,Added Successfully,NaN
+palletAdd,1,No duplicate pallet name,NaN,//div/div[2]/div[1]/button/span,Euro pallet,1200,1200,100,1000,1000000,name Already Exist,NaN,NaN,NaN,NaN,NaN,NaN,\.anticon-close > svg:nth-child(1)

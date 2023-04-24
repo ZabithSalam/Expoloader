@@ -1,0 +1,13 @@
+Test Suite,Description,Object,Action,DataColumn,WaitAfter
+containerEdit,navigate to container,,navigate,url,5
+containerEdit,click edit button,//tr[1]/td[9]/button/span,stpClick,,3
+containerEdit,click edit button,,clickElement,clickEdit,3
+containerEdit,Edit Name,"//*[@id=""Container_name""]",input,Name,
+containerEdit,Edit Width,"//*[@id=""Container_width""]",input,Width,
+containerEdit,Edit Length,"//*[@id=""Container_length""]",input,Length,
+containerEdit,Edit Height,"//*[@id=""Container_height""]",input,Height,
+containerEdit,Safe Width,"//*[@id=""Container_safe_width""]",input,Safe Width,
+containerEdit,Safe Length,"//*[@id=""Container_safe_length""]",input,Safe Length,
+containerEdit,Safe Height,"//*[@id=""Container_safe_height""]",input,Safe Height,
+containerEdit,MaxWeight,"//*[@id=""Container_max_weight""]",input,MaxWeight,4
+containerEdit,click edit button,"//*[@id=""Container""]/div[9]/div/div/div/div/button/span",click,,4

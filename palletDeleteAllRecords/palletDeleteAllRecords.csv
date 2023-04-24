@@ -1,0 +1,7 @@
+Test Suite,Description,Object,Action,DataColumn,WaitAfter
+palletDeleteAllRecords,navigate to pallet management url,,navigate,url,8
+palletDeleteAllRecords,click delete button,//div[4]/button,stpClick,,3
+palletDeleteAllRecords,click on no button in alert message ,"//span[contains(text(),'No')]",stpClick,,2
+palletDeleteAllRecords,click delete button,//div[4]/button,click,,3
+palletDeleteAllRecords,click on yes button in alert message,"//span[contains(text(),'Yes')]",click,,2
+palletDeleteAllRecords,Delete all pallet records,"//div[contains(text(),'All Deleted SuccessFully')]",verifyText,RemovePalletMsg,

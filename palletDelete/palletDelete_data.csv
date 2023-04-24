@@ -1,0 +1,3 @@
+Test Suite,Enabled,Description,url
+palletDelete,1,Delete first record ,https://testing.expoloader.com/expoloader/palletpage
+palletDelete,1,Delete second record ,NaN

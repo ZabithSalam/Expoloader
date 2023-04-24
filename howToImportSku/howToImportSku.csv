@@ -1,0 +1,18 @@
+Test Suite ,Description,Object,Action ,DataColumn,WaitAfter
+howToImportSku,Navigate to sku management,,navigate,url,5
+howToImportSku,Click button,,clickElement,sku,2
+howToImportSku,Verify name,//tr[1]/td[1],verifyText,verifyName,6
+howToImportSku,Verify width,//tr[1]/td[2],verifyText,verifyWidth,
+howToImportSku,Verify length,//tr[1]/td[3],verifyText,verifyLength,
+howToImportSku,Verify height,//tr[1]/td[4],verifyText,verifyHeight,
+howToImportSku,Verify weight,//tr[1]/td[5],verifyText,verifyWeight,
+howToImportSku,Verify SAP ID,//tr[1]/td[6],verifyText,verifySapID,
+howToImportSku,Verify Max level,//tr[1]/td[7],verifyText,verifyMaxlevel,
+howToImportSku,Verify name,//tr[2]/td[1],verifyText,verifyName2,
+howToImportSku,Verify width,//tr[2]/td[2],verifyText,verifyWidth2,
+howToImportSku,Verify length,//tr[2]/td[3],verifyText,verifyLength2,
+howToImportSku,Verify height,//tr[2]/td[4],verifyText,verifyHeight2,
+howToImportSku,Verify weight,//tr[2]/td[5],verifyText,verifyWeight2,
+howToImportSku,Verify SAP ID,//tr[2]/td[6],verifyText,verifySapID2,
+howToImportSku,Verify Max level,//tr[2]/td[7],verifyText,verifyMaxlevel2,
+howToImportSku,Click Export,,clickElement,exportbutton,

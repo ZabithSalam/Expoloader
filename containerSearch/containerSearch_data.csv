@@ -1,0 +1,9 @@
+Test Suite,Enabled,Description,url,search,verifyName,verifyWidth,verifyLength,VerifyHeight,VerifySafeWidth,VerifySafeLength,VerifySafeHeight,VerifyMaxWeight
+containerSearch,1,Search with name,https://testing.expoloader.com/expoloader/containerpage,40ft High Cube Container,40ft High Cube Container,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+containerSearch,1,Search with width,NaN,2348,NaN,No Data,NaN,NaN,NaN,NaN,NaN,NaN
+containerSearch,1,Search with legnth,NaN,12026,NaN,NaN,No Data,NaN,NaN,NaN,NaN,NaN
+containerSearch,1,Search with height,NaN,2393,NaN,NaN,NaN,No Data,NaN,NaN,NaN,NaN
+containerSearch,1,Search with safe width,NaN,50,NaN,NaN,NaN,NaN,No Data,NaN,NaN,NaN
+containerSearch,1,Search with safe length,NaN,80,NaN,NaN,NaN,NaN,NaN,No Data,NaN,NaN
+containerSearch,1,Search with safe height,NaN,100,NaN,NaN,NaN,NaN,NaN,NaN,No Data,NaN
+containerSearch,1,Search with max weight,NaN,26580000,NaN,NaN,NaN,NaN,NaN,NaN,NaN,No Data

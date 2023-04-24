@@ -1,0 +1,3 @@
+Test Suite,Description,Object,Action,DataColumn,WaitAfter
+logout,click profile dropdown,\.css-x82bvv > svg:nth-child(1),click,,3
+logout,clicklogout button,"//li[contains(text(),'Logout')]",click,,3

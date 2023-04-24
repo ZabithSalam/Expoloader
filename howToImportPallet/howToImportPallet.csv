@@ -1,0 +1,16 @@
+Test Suite ,Description,Object,Action ,DataColumn,WaitAfter
+howToImportPallet,Navigate to pallet management,,navigate,url,5
+howToImportPallet,Click button,,clickElement,sku,2
+howToImportPallet,Verify name,//tr[1]/td[1],verifyText,verifyName,6
+howToImportPallet,Verify width,//tr[1]/td[2],verifyText,verifyWidth,
+howToImportPallet,Verify length,//tr[1]/td[3],verifyText,verifyLength,
+howToImportPallet,Verify pallet height,//tr[1]/td[4],verifyText,verifyPalletHeight,
+howToImportPallet,Verify  pallet weight,//tr[1]/td[5],verifyText,verifyPalletWeight,
+howToImportPallet,Verify max weight,//tr[1]/td[6],verifyText,verifymaxWeight,
+howToImportPallet,Verify name,//tr[2]/td[1],verifyText,verifyName1,
+howToImportPallet,Verify width,//tr[2]/td[2],verifyText,verifyWidth2,
+howToImportPallet,Verify length,//tr[2]/td[3],verifyText,verifyLength3,
+howToImportPallet,Verify pallet height,//tr[2]/td[4],verifyText,verifyPalletHeight4,
+howToImportPallet,Verify  pallet weight,//tr[2]/td[5],verifyText,verifyPalletWeight5,
+howToImportPallet,Verify max weight,//tr[2]/td[6],verifyText,verifymaxWeight6,
+howToImportPallet,Click Export,,clickElement,exportbutton,

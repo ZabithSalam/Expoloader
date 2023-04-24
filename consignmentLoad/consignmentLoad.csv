@@ -1,0 +1,5 @@
+Test Suite,Description,Object,Action,DataColumn,WaitAfter
+consignmentLoad,navigate to consigment,,navigate,url,5
+consignmentLoad,click load button,//tr[1]/td[3]/button/span,click,,
+consignmentLoad,verify floorloading,//div[1]/div/div/div[1]/div[1]/div/div[1]/div/div/span[2],verifyText,loadtype,2
+consignmentLoad,verify container,//div[1]/div/div/div[1]/div[1]/div/div[2]/div/div/span[2],verifyText,container,2

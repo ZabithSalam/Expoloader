@@ -1,0 +1,7 @@
+Test Suite,Enabled,Description,url,clickEdit,Name,Width,Length,Height,Safe Width,Safe Length,Safe Height,MaxWeight
+containerEdit,1,Empty all the fields,https://testing.expoloader.com/expoloader/containerpage,NaN,,,,,,,,
+containerEdit,1,Enter duplicate data,NaN,NaN,40ft Standard Dry Container,2294,11555,2554,0,0,0,29340000
+containerEdit,1,Enter length greater than width,NaN,NaN,40ft Reefer Container,5910,2345,2690,0,0,0,28060000
+containerEdit,1,Enter correct data,NaN,NaN,40ft Reefer Container 2,3294,21555,3554,0,0,0,39340000
+containerEdit,1,Floating value,NaN,/html/body/div[1]/div/div/div/div[1]/div/div[3]/div/div/div/div/div/div/table/tbody/tr[1]/td[9]/button/span,40ft Reefer Container 2,3348.3,32025.87,3392.55,0,0,0,36580000.44
+containerEdit,1,Enter minus value,NaN,/html/body/div[1]/div/div/div/div[1]/div/div[3]/div/div/div/div/div/div/table/tbody/tr[1]/td[9]/button/span,40ft Reefer Container 2,-3350,-3555,-3699,0,0,0,-36550000

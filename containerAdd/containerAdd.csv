@@ -1,0 +1,22 @@
+Test Suite,Description,Object,Action,DataColumn,WaitAfter
+containerAdd,navigate to container,,navigate,url,5
+containerAdd,click add button,,clickElement,clickAdd,3
+containerAdd,add Name,"//*[@id=""Container_name""]",input,Name,
+containerAdd,add Width,"//*[@id=""Container_width""]",input,Width,
+containerAdd,add Length,"//*[@id=""Container_length""]",input,Length,
+containerAdd,add Height,"//*[@id=""Container_height""]",input,Height,
+containerAdd,add Safe Width,"//*[@id=""Container_safe_width""]",input,SafeWidth,
+containerAdd,add Safe Length,"//*[@id=""Container_safe_length""]",input,SafeLength,
+containerAdd,add Safe Height,"//*[@id=""Container_safe_height""]",input,SafeHeight,
+containerAdd,add Max Weight,"//*[@id=""Container_max_weight""]",input,MaxWeight,
+containerAdd,click add button,//div[9]/div/div/div/div/button/span,click,,6
+containerAdd,Verify name,"//div[contains(text(),'Please input NAME!')]",verifyText,VerifyName,
+containerAdd,Verify width,"//div[contains(text(),'Please input WIDTH!')]",verifyText,VerifyWidth,
+containerAdd,Verify Length,"//div[contains(text(),'Please input LENGTH!')]",verifyText,VerifyLength,
+containerAdd,Verify Height,"//div[contains(text(),'Please input HEIGHT!')]",verifyText,VerifyHeight,
+containerAdd,Verify Safe Width,"//div[contains(text(),'Please input SAFE WIDTH!')]",verifyText,VerifySafeWidth,
+containerAdd,Verify Safe Length,"//div[contains(text(),'Please input SAFE LENGTH!')]",verifyText,VerifySafeLength,
+containerAdd,Verify Safe Height,"//div[contains(text(),'Please input SAFE HEIGHT!')]",verifyText,VerifySafeHeight,
+containerAdd,Verify Max Weight,"//div[contains(text(),'Please input MAX WEIGHT!')]",verifyText,VerifyMaxWeight,
+containerAdd,Verify Allredy existing Data,"//div[contains(text(),'name Already Exist')]",verifyText,VerifyAllredyexistingData,
+containerAdd,Verify Container Add Message,"//div[@class=""ant-notification ant-notification-topRight""]",verifyText,VerifyContainerAddMessege,

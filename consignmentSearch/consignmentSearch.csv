@@ -1,0 +1,3 @@
+Test Suite,Description,Object,Action,DataColumn,WaitAfter
+consignmentSearch,navigate to consignement,,navigate,url,5
+consignmentSearch,search to consignment,//div[2]/span/input,input,search,2

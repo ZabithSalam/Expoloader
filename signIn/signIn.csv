@@ -1,0 +1,7 @@
+Test Suite,Description,Object,Action,DataColumn,WaitAfter
+signIn,Enter the Username in the UserName field,/html/body/div[1]/div/div/div/div[1]/div/div[2]/div[1]/form/div[1]/div/div/input,input,email,
+signIn,Enter the Password in the Password field,/html/body/div[1]/div/div/div/div[1]/div/div[2]/div[1]/form/div[2]/div/div/input,input,password,
+signIn,Click on Login button,/html/body/div[1]/div/div/div/div[1]/div/div[2]/div[1]/form/div[4]/button,click,,5
+signIn,Verify Email error msg,/html/body/div[1]/div/div/div/div[1]/div/div[2]/div[1]/form/div[1]/div/p,verifyText,errorMsgEmail,
+signIn,Verify password error msg,/html/body/div[1]/div/div/div/div[1]/div/div[2]/div[1]/form/div[2]/div/p,verifyText,errorMsgPassword,
+signIn,Verify login error msg,"//div[contains(text(),'Wrong Email or Password')]",verifyText,loginErrorMsg,

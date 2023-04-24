@@ -1,0 +1,6 @@
+Test Suite,Description,Object,Action,DataColumn,WaitAfter
+projectDeleteAllRecords,navigate to project,,navigate,url,5
+projectDeleteAllRecords,click Delete all Records,//div[4]/button/span,stpClick,,2
+projectDeleteAllRecords,click on  no button in tos message,"//span[contains(text(),'No')]",stpClick,,3
+projectDeleteAllRecords,click Delete all Records,//div[4]/button/span,click,,2
+projectDeleteAllRecords,click on  Yes button in tos message,"//span[contains(text(),'Yes')]",click,,4

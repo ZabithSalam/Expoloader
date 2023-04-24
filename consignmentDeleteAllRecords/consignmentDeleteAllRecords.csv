@@ -1,0 +1,6 @@
+Test Suite,Description,Object,Action,DataColumn,WaitAfter
+consignmentDeleteAllRecords,navigate to consigment,,navigate,url,10
+consignmentDeleteAllRecords,click all delete button,//div[1]/button/span,click,,2
+consignmentDeleteAllRecords,click no button,//div[2]/div/div[2]/button[1]/span,click,,2
+consignmentDeleteAllRecords,click all delete button,//div[1]/button/span,click,,2
+consignmentDeleteAllRecords,click yes button,//div[2]/div/div[2]/button[2]/span,click,,2

@@ -1,0 +1,6 @@
+Test Suite,Description,Object,Action,DataColumn,WaitAfter
+projectDetailAddUser,navigate to project details page,,navigate,url,8
+projectDetailAddUser,click user name in the table,/html/body/div[1]/div/div/div/div[1]/div/div[3]/div/div/div/div/div/div/table/tbody/tr/td[1]/a,stpClick,,8
+projectDetailAddUser,Click add user button,,clickElement,addUserButton,4
+projectDetailAddUser,input email ,basic_email,input,email,1
+projectDetailAddUser,click submit button,/html/body/div[6]/div/div[2]/div/div[2]/div[2]/form/div[3]/div/div/div/div/button,click,,4

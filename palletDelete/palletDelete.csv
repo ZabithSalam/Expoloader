@@ -1,0 +1,7 @@
+Test Suite,Description,Object,Action,DataColumn,WaitAfter
+palletDelete,navigate to pallet management url,,navigate,url,8
+palletDelete,click on delete button,//tr[1]/td[8]/button,stpClick,,3
+palletDelete,click on no button in alert message ,"//span[contains(text(),'No')]",stpClick,,2
+palletDelete,click on delete button,//tr[1]/td[8]/button,click,,3
+palletDelete,click on yes button in alert message,"//span[contains(text(),'Yes')]",click,,5
+palletDelete,Verify pallet delete,"//div[contains(text(),'Removed Successfully')]",verifyText,RemovePalletMsg,

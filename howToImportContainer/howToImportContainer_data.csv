@@ -1,0 +1,5 @@
+Test Suite ,Enabled,Description,url,sku,verifyName,verifyWidth,verifyLength,verifyHeight,verifySafeWidth,verifySafeLength,verifySafeHeight,verifySafeMaxWeight,verifyName2,verifyWidth2,verifyLength2,verifyHeight2,verifySafeWidth2,verifySafeLength2,verifySafeHeight2,verifySafeMaxWeight2,exportButton
+howToImportContainer,1,Navigate container management,https://testing.expoloader.com/expoloader/containerpage,//div[2]/div[2]/div/span[2],NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+howToImportContainer,1,Verify first record,NaN,NaN,20ft Reefer Container,4500,5000,2800,0,0,0,28060111,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+howToImportContainer,1,Verify second record,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,40ft Reefer Container,2294,11555,2554,0,0,0,29340000,NaN
+howToImportContainer,1,Click Export ,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,//p[2]/button/span

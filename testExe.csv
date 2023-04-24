@@ -1,0 +1,49 @@
+Test Suite,Description,Enabled,Data File (if not specified default file will be searched according to convention),Reason to fail test suites or desabled 
+navigation,navigate to Expoloader - group 1,1,,
+signUp,sign up to expoloader,1,,
+logout,logout,1,,
+signIn,signin to expoloader,1,,
+skuExportExcel,sku export excel,1,,
+skuDeleteAllRecords,sku delete all records,1,,fails due to a resolution bug in expoloader
+skuAdd,add new sku,1,,
+skuEdit,sku edit,1,,
+skuSearch,sku search,1,,
+skuDelete,delete single sku,1,,
+skuDeleteAllRecords,sku delete all records,1,,fails due to a bug in expoloader
+skuImportExcel,sku import excel,1,,
+palletExportExcel,export excel file,1,,
+palletDeleteAllRecords,delete all record,1,,fails due to a bug in expoloader
+palletAdd,add new pallet,1,,
+palletEdit,pallet edit,1,,
+palletSearch,pallet search,1,,
+palletDelete,delete single pallete,1,,
+palletDeleteAllRecords,delete all record,1,,fails due to a bug in expoloader
+palletImportExcel,import  excel file,1,,
+containerExportExcel,export excel file,1,,
+containerDeleteAllRecords,delete all container records,1,,
+containerAdd,add new container,1,,
+containerEdit,edit container,1,,
+containerSearch,search container,1,,
+containerDelete,delete single container,1,,
+containerDeleteAllRecords,delete all container records,1,,
+containerImportExcel,import excel file,1,,
+projectAdd,add project,1,,
+projectEdit,edit project,1,,"this test suit will not run properly. Because addProject didn't worked so we cant edit the
+ selected project if we need to edit the unselect project we need to add new project "
+searchProject,search project,1,,
+projectDelete,delete project,1,,"this test suit will not run properly. Because addProject didn't worked so we cant delete the select 
+project if we need to delete the unselect project we need to add new project "
+projectDetailAddUser,add user project details,1,,
+projectDetailEditUser,project details edit user,1,,
+projectDetailsDelete,proect details delete user,1,,
+selectProject,select project,1,,"desabled because it depend on projectAdd. The projectAdd didn't worked, it has bug"
+consignmentEdit,edit consignment,1,,desabled because it depend on optimization management features. The optimizations are not implemented yet.
+consignmentSearch,search consignment,1,,desabled because it depend on optimization management features. The optimizations are not implemented yet.
+consignmentDeleteAllRecords,delete all consignments,1,,desabled because it depend on optimization management features. The optimizations are not implemented yet.
+consignmentLoad,consignment load,1,,desabled because it depend on optimization management features. The optimizations are not implemented yet.
+customerOrderAdd,add customer order ,1,,
+changePassword,Change password,1,,
+signInAfterChangePSWD,sign in ,1,,
+projectDeleteAllRecords,delete all  projects,1,,
+deleteAccount,Delete the account,1,,
+api,api,1,,

@@ -1,0 +1,8 @@
+Test Suite,Enabled,Description,url,search,verifyName,verifyWidth,verifyLength,verifyHeight,verifyWeight,verifySapID,verifyMaxlevel
+skuSearch,1,Test Search by Name,https://testing.expoloader.com/expoloader/skupage,SKU_2_315_420_546,SKU_2_315_420_546,NaN,NaN,NaN,NaN,NaN,NaN
+skuSearch,1,Test Search by Width,NaN,1100,NaN,No Data,NaN,NaN,NaN,NaN,NaN
+skuSearch,1,Test Search by Length,NaN,1200,NaN,NaN,No Data,NaN,NaN,NaN,NaN
+skuSearch,1,Test Search by Height,NaN,185,NaN,NaN,NaN,No Data,NaN,NaN,NaN
+skuSearch,1,Test Search by Weight,NaN,100,NaN,NaN,NaN,NaN,No Data,NaN,NaN
+skuSearch,1,Test Search by SAP ID,NaN,432KS2DF,NaN,NaN,NaN,NaN,NaN,No Data,NaN
+skuSearch,1,Test Search by Max Level,NaN,1000,NaN,NaN,NaN,NaN,NaN,NaN,No Data

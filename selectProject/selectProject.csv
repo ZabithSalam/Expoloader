@@ -1,0 +1,5 @@
+Test Suite,Description,Object,Action ,DataColumn,WaitAfter
+selectProject,click project,/html/body/div[1]/div/div/div/header/div/div[1]/div/div[5]/button/span,click,,
+selectProject,enter project Name,\.ant-col-24 > input:nth-child(1),input,Name,
+selectProject,select project,,clickElement,clickName,
+selectProject,clickok,,clickElement,clickOk,

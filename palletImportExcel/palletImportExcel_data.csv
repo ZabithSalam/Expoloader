@@ -1,0 +1,2 @@
+Test Suite,Enabled,Description,url,name,width,length,height,weight,maxWeight,name1,width1,length1,height1,weight1,maxWeight1
+palletImportExcel,1,Import pallet excel data,https://testing.expoloader.com/expoloader/palletpage,Euro pallet,800,1200,100,1000,1000000,Industrial pallet 1,1100,1100,100,1000,1000000
